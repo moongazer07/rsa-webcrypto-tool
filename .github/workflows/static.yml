@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: kali-rolling
+    runs-on: kali-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
