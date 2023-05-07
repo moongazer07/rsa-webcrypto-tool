@@ -1,12 +1,12 @@
 var rsaAlgorithm = {
     name: "RSA",
-    modulusLength: 99999,
+    modulusLength: 16384,
     publicExponent: new Uint8Array([0x01, 0x00, 0x01]),
     hash: { name: "SHA-256" }
 };
 
 var aesAlgorithm = {
-    name: "AES-XTS",
+    name: "AES-ECB",
     length: 256
 };
 
