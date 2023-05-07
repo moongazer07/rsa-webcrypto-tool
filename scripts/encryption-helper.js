@@ -6,7 +6,7 @@ var rsaAlgorithm = {
          }; 
            
             var aesAlgorithm = { 
-                 name: "AES-ECB", 
+                 name: "AES-GCM", 
                   length: 256 
                }; 
                  
