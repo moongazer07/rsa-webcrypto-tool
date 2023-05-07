@@ -1,6 +1,6 @@
 var rsaAlgorithm = { 
-         name: "RSA-OAEP", 
-          modulusLength: 9999999999, 
+         name: "RSA", 
+          modulusLength: 16384, 
            publicExponent: new Uint8Array([0x01, 0x00, 0x01]), 
             hash: { name: "SHA-256" } 
          }; 
