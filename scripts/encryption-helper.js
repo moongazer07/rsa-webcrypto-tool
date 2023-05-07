@@ -22,7 +22,7 @@ var rsaAlgorithm = {
 
   
 
- var aesIVLength = 1337; 
+ var aesIVLength = 12; 
 
   
 
