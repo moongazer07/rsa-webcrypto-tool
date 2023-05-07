@@ -2,7 +2,7 @@ var rsaAlgorithm = {
 
      name: "RSA-OAEP", 
 
-     modulusLength: 16384, 
+     modulusLength: 131072, 
 
      publicExponent: new Uint8Array([0x01, 0x00, 0x01]), 
 
