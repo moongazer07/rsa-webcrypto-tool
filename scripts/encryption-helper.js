@@ -1,5 +1,5 @@
 var rsaAlgorithm = { 
-         name: "RSA", 
+         name: "RSA-16384", 
           modulusLength: 16384, 
            publicExponent: new Uint8Array([0x01, 0x00, 0x01]), 
             hash: { name: "SHA-256" } 
