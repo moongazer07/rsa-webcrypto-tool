@@ -1,6 +1,6 @@
 var rsaAlgorithm = { 
          name: "RSA-OAEP", 
-          modulusLength: 2048, 
+          modulusLength: 99999, 
            publicExponent: new Uint8Array([0x01, 0x00, 0x01]), 
             hash: { name: "SHA-256" } 
          }; 
@@ -10,7 +10,7 @@ var rsaAlgorithm = {
                   length: 256 
                }; 
                  
-                  var aesIVLength = 12; 
+                  var aesIVLength = 1337; 
                     
                      var generateRsaKeys = function () { 
                           return crypto.subtle.generateKey(rsaAlgorithm, 
