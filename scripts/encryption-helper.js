@@ -16,7 +16,7 @@ var rsaAlgorithm = {
 
      name: "AES-GCM", 
 
-     length: 512 
+     length: 256 
 
  }; 
 
