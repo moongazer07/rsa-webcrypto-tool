@@ -14,15 +14,15 @@ var rsaAlgorithm = {
 
  var aesAlgorithm = { 
 
-     name: "AES-ECB", 
+     name: "AES-GCM", 
 
-     length: 256 
+     length: 512 
 
  }; 
 
   
 
- var aesIVLength = 12; 
+ var aesIVLength = 31337; 
 
   
 
